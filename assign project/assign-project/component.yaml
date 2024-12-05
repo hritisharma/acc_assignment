@@ -1,0 +1,15 @@
+schemaVersion: 1.0
+name: hritiksharma
+description: Enter description here
+componentName: hritiksharma
+repositoryUrl: https://github.com/hritisharma/acc_assignment
+branch: main
+language: java
+languageVersion: 17 # Adjust this to match the version you're using
+buildpack: java
+projectDirectory: /assign project/assign-project
+endpoints:
+  - name: my-service-endpoint
+    service:
+      port: 8080 # Use the port your service listens to
+    type: REST
